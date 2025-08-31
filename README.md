@@ -24,6 +24,8 @@ The standardization and distribution of all data, in this case I will talk about
     "data": { "type": null, "value": 48.0, "unit": "AQI" }
   }
 ]
+
+```
 ### 3. Veracity
 `data_source_veracity` field represents the accuracy and trustworthiness of the data.  
 It relates to the concept of veracity since veracity refers to the quality and accuracy of data. Gathered data could have missing pieces, may be inaccurate, or may not be able to provide real, valuable insight. Veracity, overall, refers to the level of trust there is in the collected data.
@@ -63,7 +65,7 @@ function checkTimeStampAndValue(record) {
     console.log("Timestamp is not in ISO 8601 format.");
   }
 }
-
+```
 
 ---
 
@@ -83,6 +85,7 @@ function checkTimeStampAndValue(record) {
     "access_control": "Public"
   }
 }
+```
 ### 2. Potential Negative Impacts
 - Being remembered as a company for the data breach incident itself, rather than their actual business operations.  
 - Effect on an organization's reputation and financial bottom line.
